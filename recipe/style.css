@@ -1,0 +1,115 @@
+/* use custom font, set page margins */
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* double-space ingredients list */
+li {
+	line-height: 300%;
+	transition-property: transform;
+	transition-duration:1s,1s;
+}
+
+/* transform ingredients on hover */
+li:hover {
+	transform: scale(1.1);
+	font-weight: bold;
+}
+
+ul.check {
+	list-style-image: url('http://allreaders.com/checkmark.gif'); 
+}
+
+/* avatar settings */
+.avatar {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	border-radius: 100%;
+	box-shadow: -7px 7px 5px #888888;
+}
+
+.author p {
+	display: inline-flex;
+	margin: 0;
+}
+
+/* main picture settings */
+.mainimg {
+	width: 420px;
+	height: auto;
+	border-radius: 10%;
+}
+
+/* food network logo settings */
+.logo {
+	width: 80px;
+	height: 80px;
+	float: right;
+	transition-property: transform;
+	transition-duration:5s,5s;
+}
+
+.logo:hover {
+	transform: rotate(360deg);
+}
+
+/* food network text */
+.foodnetwork {
+	text-decoration: none;
+	color: #CC0000;
+	font-weight: 700;
+}
+
+/* paragraph links to food network index of terms */
+.links {
+	color: red;
+	text-decoration: none;
+}
+
+/* time to prep etc. aside */
+#specs {
+	padding: 10px 20px 10px 20px;
+	margin-left: 20px;
+	vertical-align: top;
+	display: inline-flex;
+	background-color: antiquewhite;
+}
+
+#ingredients {
+	float: left;
+	width: 420px;
+	margin-left: 20px;
+}
+
+#directions {
+	width: 420px;
+	display: inline-block;
+}
+
+.highlight {
+	background-color: #f69d9d;
+}
+
+/* hide all images */
+.hide-img {
+	right: 20px;
+	top: 120px;
+	position: fixed;
+	background-color: red;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5%;
+}
+
+.unhide-img {
+	right: 20px;
+	top: 20px;
+	position: fixed;
+	background-color: red;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5%;
+}
